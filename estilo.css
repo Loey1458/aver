@@ -1,0 +1,38 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.formulario {
+    width:50%;
+  border-radius: 1%;
+  border:1% solid #5d9b9b;;
+  padding: 5%;
+  margin-top: 15%;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #c3e0e0;
+}
+@media (max-width: 400%){
+    .formulario{
+        width: auto;
+        height: auto;
+
+    }
+}
+input :focus{
+  border: 1% solid #008080;
+
+}
+input[type="submit"]{
+    height: 30%;
+    width: 60%;
+    background: #137272;
+}
+
+input[type="submit"]:hover{
+    background: #457a7a;
+    cursor: pointer;
+}
